@@ -3,7 +3,7 @@ import HeroSection from "@/components/home/HeroSection";
 import ImageSection from "@/components/home/ImageSection";
 import VideoSection from "@/components/home/VideoSection";
 
-export default function Home() {
+export default function Life() {
   return (
     <>
       <HeroSection />
