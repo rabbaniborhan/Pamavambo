@@ -3,6 +3,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import Image from "next/image"; // Import Next.js Image component
+import Link from "next/link";
 
 export default function AboutSection() {
   return (
@@ -28,8 +29,8 @@ export default function AboutSection() {
               A tight-knit community, a support system, a place of respite, a
               team, a flag, a cheer, a legacy to make your own.
             </p>
-            <Button className="bg-[#bc1a31] hover:bg-[#9a1528] text-white rounded-none px-8 py-6 uppercase tracking-widest text-xs flex items-center gap-4">
-              Learn More <ArrowRight size={16} />
+            <Button className="bg-[#bc1a31] cursor-pointer hover:bg-[#9a1528] text-white rounded-none px-8 py-6 uppercase tracking-widest text-xs flex items-center gap-4">
+              <Link href={"/life"}>Learn More</Link> <ArrowRight size={16} />
             </Button>
           </div>
 
@@ -98,8 +99,8 @@ export default function AboutSection() {
               more. It’s the state of mind that every Lawrentian brings to the
               classroom: a spirit of openness, curiosity, and discovery.
             </p>
-            <Button className="bg-[#bc1a31] hover:bg-[#9a1528] text-white rounded-none px-8 py-6 uppercase tracking-widest text-xs flex items-center gap-4">
-              Learn More <ArrowRight size={16} />
+            <Button className="bg-[#bc1a31] cursor-pointer hover:bg-[#9a1528] text-white rounded-none px-8 py-6 uppercase tracking-widest text-xs flex items-center gap-4">
+              <Link href={"/life"}>Learn More</Link> <ArrowRight size={16} />
             </Button>
           </div>
         </div>
