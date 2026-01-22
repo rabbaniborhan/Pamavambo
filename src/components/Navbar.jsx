@@ -88,7 +88,7 @@ export default function Navbar() {
                 </Link>
 
                 {openIndex === index && menu.links.length > 0 && (
-                  <div className="absolute left-0 mt-4 w-56 bg-[#610716] text-white shadow-2xl py-2 z-50">
+                  <div className="absolute left-0  w-56 bg-[#610716] text-white shadow-2xl py-2 z-50">
                     <ul className="flex flex-col">
                       {menu.links.map((link, i) => (
                         <li
@@ -122,7 +122,7 @@ export default function Navbar() {
               <ChevronDown size={14} className="text-amber-500" />
 
               {isInfoOpen && (
-                <div className="absolute top-full right-0 mt-2 w-40 bg-[#610716] text-white shadow-lg py-2">
+                <div className="absolute top-full right-0  w-40 bg-[#610716] text-white shadow-lg py-2">
                   <ul className="flex flex-col">
                     {dropdownData.items.map((item, index) => (
                       <li key={index} className="px-4 py-2 hover:bg-[#821021]">
