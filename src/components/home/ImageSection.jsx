@@ -15,7 +15,7 @@ const gridItems = [
     link: "/athletics",
   },
   {
-    title: "Performing Arts",
+    title: "Admissions",
     image: "/pa_dance_frobeats-horiz.jpg",
     link: "/arts",
   },

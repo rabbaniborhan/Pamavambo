@@ -1,112 +1,143 @@
 "use client";
 
-import { Facebook, Instagram, Linkedin, Youtube } from "lucide-react";
+import {
+  ArrowRight,
+  Facebook,
+  Instagram,
+  Linkedin,
+  Youtube,
+} from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
-const navLinks = [
+const mainNavLinks = [
+  { name: "SCHOOL NEWS", href: "/news" },
   { name: "DIRECTORY", href: "/directory" },
   { name: "CAREERS", href: "/careers" },
-  { name: "BIG RED STORE", href: "/store" },
-  { name: "SITE MAP", href: "/sitemap" },
+  { name: "BIG RED ONLINE STORE", href: "/store" },
+];
+
+const secondaryLinks = [
   { name: "PRIVACY POLICY", href: "/privacy" },
+  { name: "SITE MAP", href: "/sitemap" },
+  { name: "EMPLOYEE SELF-SERVICE PORTAL", href: "/portal" },
 ];
 
 export default function Footer() {
   return (
-    <footer className="w-full">
-      <div className="bg-gray-900 text-white py-16 px-6 md:px-20">
-        <div className="max-w-7xl mx-auto">
-          {/* Changed to flex-col for mobile, md:flex-row for desktop */}
-          <div className="flex flex-col md:flex-row justify-between md:justify-evenly gap-12 md:gap-0">
-            {/* 1. Left Column: Navigation & CTA */}
-            <div className="flex flex-col space-y-4 items-center md:items-start text-center md:text-left">
-              <nav className="flex flex-col space-y-2">
-                {navLinks.map((link) => (
-                  <Link
-                    key={link.name}
-                    href={link.href}
-                    className="text-xs font-bold tracking-widest hover:text-[#b89149] transition-colors"
-                  >
-                    {link.name}
-                  </Link>
-                ))}
-              </nav>
+    <footer className="w-full bg-[#1a1a1a] text-white py-16 px-6 md:px-20 border-t border-white/10">
+      <div className="max-w-7xl mx-auto">
+        {/* Top Section: Seal, Address, and Action Buttons */}
+        <div className="flex flex-col md:flex-row justify-between items-center md:items-start gap-12 pb-16">
+          {/* Left Group: Seal and Address */}
+          <div className="flex flex-col md:flex-row items-center gap-8">
+            <div className="relative w-28 h-28 opacity-60">
+              <Image
+                src="/logo-emblem-white.svg"
+                alt="The Lawrenceville School Seal"
+                fill
+                className="object-contain grayscale brightness-200"
+              />
+            </div>
+            <div className="text-center md:text-left space-y-1">
+              <p className="text-xs tracking-wide opacity-80">
+                2500 Main Street
+              </p>
+              <p className="text-xs tracking-wide opacity-80">
+                Lawrenceville, NJ 08648
+              </p>
+              <p className="text-xs tracking-wide opacity-80">
+                Admission: (609) 895-2030
+              </p>
+              <p className="text-xs tracking-wide opacity-80">
+                Main: (609) 896-0400
+              </p>
+            </div>
+          </div>
 
-              <div className="pt-4">
-                <Link
-                  href="/give"
-                  className="inline-block border border-[#b89149] px-6 py-2 text-xs font-bold tracking-widest hover:bg-[#b89149] hover:text-black transition-all"
-                >
-                  Make a gift &rarr;
-                </Link>
-              </div>
+          {/* Right Group: CTAs and Social Icons */}
+          <div className="flex flex-col items-center md:items-end space-y-6">
+            <div className="flex flex-col space-y-3 w-full max-w-[240px]">
+              <Link
+                href="/inquire"
+                className="flex justify-between items-center border border-[#b89149]/50 px-5 py-3 text-[10px] font-bold tracking-[0.2em] hover:bg-[#b89149] hover:text-black transition-all group"
+              >
+                INQUIRE
+                <ArrowRight
+                  size={14}
+                  className="group-hover:translate-x-1 transition-transform"
+                />
+              </Link>
+              <Link
+                href="/give"
+                className="flex justify-between items-center border border-[#b89149]/50 px-5 py-3 text-[10px] font-bold tracking-[0.2em] hover:bg-[#b89149] hover:text-black transition-all group"
+              >
+                GIVE NOW
+                <ArrowRight
+                  size={14}
+                  className="group-hover:translate-x-1 transition-transform"
+                />
+              </Link>
             </div>
 
-            {/* 2. Right Group: Combined Address, Mission, and Seal */}
-            {/* On mobile, this stacks everything vertically. On desktop, it keeps your side-by-side layout */}
-            <div className="flex flex-col md:flex-row gap-8 items-center md:items-start">
-              {/* Text Content */}
-              <div className="flex flex-col items-center md:items-end text-center md:text-right space-y-6">
-                <div className="space-y-1">
-                  <h4 className="font-serif text-lg font-bold">
-                    The Lawrenceville School
-                  </h4>
-                  <p className="text-sm opacity-80">2500 Main Street</p>
-                  <p className="text-sm opacity-80">Lawrenceville, NJ 08648</p>
-                </div>
-
-                <p className="text-xs leading-relaxed opacity-60 max-w-xs italic">
-                  The Lawrenceville School is a co-educational college
-                  preparatory school for boarding and day students in grades 9 -
-                  12.
-                </p>
-
-                {/* Social Icons */}
-                <div className="flex space-x-6 pt-2">
-                  <Facebook
-                    size={18}
-                    className="cursor-pointer hover:text-[#b89149]"
-                  />
-                  <div className="w-5 h-5 border border-white flex items-center justify-center text-[10px] font-bold cursor-pointer hover:border-[#b89149] hover:text-[#b89149]">
-                    X
-                  </div>
-                  <Linkedin
-                    size={18}
-                    className="cursor-pointer hover:text-[#b89149]"
-                  />
-                  <Instagram
-                    size={18}
-                    className="cursor-pointer hover:text-[#b89149]"
-                  />
-                  <Youtube
-                    size={18}
-                    className="cursor-pointer hover:text-[#b89149]"
-                  />
-                </div>
-              </div>
-
-              {/* Seal/Logo */}
-              <div className="flex justify-center md:justify-end">
-                <div className="relative w-32 h-32">
-                  <Image
-                    src="/logo-emblem-white.svg"
-                    alt="The Lawrenceville School Seal"
-                    fill
-                    className="object-contain"
-                  />
-                </div>
-              </div>
+            {/* Social Icons - Clean Row */}
+            <div className="flex space-x-6">
+              <Facebook
+                size={18}
+                className="cursor-pointer opacity-70 hover:opacity-100 transition-opacity"
+              />
+              <Linkedin
+                size={18}
+                className="cursor-pointer opacity-70 hover:opacity-100 transition-opacity"
+              />
+              <Instagram
+                size={18}
+                className="cursor-pointer opacity-70 hover:opacity-100 transition-opacity"
+              />
+              <Youtube
+                size={18}
+                className="cursor-pointer opacity-70 hover:opacity-100 transition-opacity"
+              />
             </div>
           </div>
         </div>
-      </div>
 
-      {/* Bottom Bar */}
-      <div className="py-6 bg-black text-white text-center">
-        <p className="text-[10px] opacity-40 uppercase tracking-widest">
-          © Powered by Finalsite
-        </p>
+        {/* Middle Section: Main Site Navigation Links */}
+        <div className="border-t border-white/10 pt-8 pb-4">
+          <nav className="flex flex-wrap justify-center md:justify-start gap-x-8 gap-y-4">
+            {mainNavLinks.map((link) => (
+              <Link
+                key={link.name}
+                href={link.href}
+                className="text-[10px] font-bold tracking-[0.2em] opacity-80 hover:text-[#b89149] hover:opacity-100 transition-all uppercase"
+              >
+                {link.name}
+              </Link>
+            ))}
+          </nav>
+        </div>
+
+        {/* Bottom Section: Legal Links and Branding */}
+        <div className="border-t border-white/5 pt-6 flex flex-col md:flex-row justify-between items-center gap-6">
+          <nav className="flex flex-wrap justify-center md:justify-start gap-x-6 gap-y-2">
+            {secondaryLinks.map((link) => (
+              <Link
+                key={link.name}
+                href={link.href}
+                className="text-[9px] font-bold tracking-[0.15em] text-[#b89149] hover:brightness-125 transition-all uppercase"
+              >
+                {link.name}
+              </Link>
+            ))}
+          </nav>
+
+          <div className="flex flex-col items-center md:items-end">
+            <p className="text-[9px] opacity-30 uppercase tracking-[0.2em] flex items-center gap-1">
+              <span className="text-base leading-none">©</span> Powered by
+              Finalsite
+            </p>
+          </div>
+        </div>
       </div>
     </footer>
   );
