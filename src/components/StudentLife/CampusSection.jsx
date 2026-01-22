@@ -15,11 +15,11 @@ const houseImages = [
 
 export default function CampusSection() {
   return (
-    <section className="w-full bg-white py-16 md:py-24 px-6 md:px-20 lg:px-32">
-      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-16 items-start">
+    <section className="w-full bg-white py-12 sm:py-16 md:py-20 lg:py-24 px-4 sm:px-6 md:px-12 lg:px-16 xl:px-32">
+      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-8 sm:gap-10 md:gap-12 lg:gap-16 xl:gap-20 items-start">
         {/* Left Column: Text Content */}
-        <div className="w-full lg:w-1/2 space-y-8">
-          <div className="space-y-6 text-gray-700 leading-relaxed font-light text-sm md:text-base">
+        <div className="w-full lg:w-1/2 space-y-6 sm:space-y-8">
+          <div className="space-y-4 sm:space-y-5 md:space-y-6 text-gray-700 leading-relaxed md:leading-relaxed font-light text-sm sm:text-base md:text-[15px] lg:text-base">
             <p>
               Each Lawrenceville student belongs to a House. A House is a
               residential building which also serves as home base for our day
@@ -48,48 +48,49 @@ export default function CampusSection() {
               and curiosity in our students and faculty.
             </p>
 
-            <p className="pt-4 italic text-gray-500">
+            <p className="pt-4 md:pt-6 italic text-gray-500">
               Continue to our Campus page to explore our Houses and other
               community spaces.
             </p>
           </div>
 
           {/* Call to Action with Custom Icon */}
-          <div className="pt-8 space-y-4">
+          <div className="pt-6 sm:pt-8 space-y-3 sm:space-y-4">
             <button className="flex flex-col items-start group">
-              <span className="text-[10px] font-bold tracking-[0.3em] uppercase text-black mb-1">
+              <span className="text-[10px] sm:text-[10px] md:text-[10px] lg:text-[10px] font-bold tracking-[0.2em] sm:tracking-[0.25em] md:tracking-[0.3em] uppercase text-black mb-1">
                 Explore Campus By
               </span>
-              <span className="text-[10px] font-bold tracking-[0.3em] uppercase text-black border-b border-black pb-1 group-hover:text-[#bc1a31] group-hover:border-[#bc1a31] transition-colors">
+              <span className="text-[10px] sm:text-[10px] md:text-[10px] lg:text-[10px] font-bold tracking-[0.2em] sm:tracking-[0.25em] md:tracking-[0.3em] uppercase text-black border-b border-black pb-1 group-hover:text-[#bc1a31] group-hover:border-[#bc1a31] transition-colors">
                 Taking a Virtual Tour.
               </span>
             </button>
 
             {/* Decorative Map Icon */}
-            <div className="relative w-24 h-24 ">
+            <div className="relative w-20 h-20 sm:w-22 sm:h-22 md:w-24 md:h-24 lg:w-26 lg:h-26">
               <Image
                 src="/student_life/icon_map.png"
                 alt="Map Icon"
                 fill
                 className="object-contain"
+                sizes="(max-width: 640px) 80px, (max-width: 768px) 88px, (max-width: 1024px) 96px, 104px"
               />
             </div>
           </div>
         </div>
 
         {/* Right Column: 2-Column Image Grid */}
-        <div className="w-full lg:w-1/2 grid grid-cols-2 gap-4 md:gap-6">
+        <div className="w-full lg:w-1/2 grid grid-cols-2 gap-3 sm:gap-4 md:gap-5 lg:gap-6">
           {houseImages.map((src, index) => (
             <div
               key={index}
-              className="relative aspect-4/3 w-full shadow-md overflow-hidden"
+              className="relative aspect-4/3 w-full shadow-sm sm:shadow-md overflow-hidden"
             >
               <Image
                 src={src}
                 alt={`House life ${index + 1}`}
                 fill
                 className="object-cover transition-transform duration-500 hover:scale-105"
-                sizes="(max-width: 768px) 50vw, 25vw"
+                sizes="(max-width: 640px) 50vw, (max-width: 1024px) 25vw, 20vw"
               />
             </div>
           ))}

@@ -95,14 +95,14 @@ const StudentClubsAccordion = () => {
   };
 
   return (
-    <section className="bg-white py-20 px-6 md:px-20 lg:px-32">
+    <section className="bg-white py-12 sm:py-16 md:py-20 px-4 sm:px-6 md:px-12 lg:px-20 xl:px-32">
       <div className="max-w-7xl mx-auto">
         {/* Header Section */}
-        <h2 className="font-serif text-4xl md:text-5xl text-gray-900 mb-8">
+        <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 mb-6 sm:mb-8">
           Student Clubs and Organizations
         </h2>
 
-        <p className="text-gray-600 font-light leading-relaxed mb-12 max-w-4xl">
+        <p className="text-gray-600 font-light leading-relaxed sm:leading-relaxed mb-8 sm:mb-10 md:mb-12 max-w-full sm:max-w-3xl md:max-w-4xl text-sm sm:text-base">
           Student Clubs and Organizations offer the opportunity for students to
           discover and pursue personal interests — from academic topics to
           performance to community development and service — and to meet and
@@ -115,7 +115,7 @@ const StudentClubsAccordion = () => {
             <div key={index} className="border-b border-gray-200">
               <button
                 onClick={() => toggleAccordion(index)}
-                className={`w-full flex items-center py-4 px-4 transition-all duration-300 group ${
+                className={`w-full flex items-center py-3 sm:py-4 px-3 sm:px-4 transition-all duration-300 group ${
                   openIndex === index
                     ? "bg-[#9b031f] text-white"
                     : "hover:bg-gray-50"
@@ -123,12 +123,12 @@ const StudentClubsAccordion = () => {
               >
                 {/* Icon Wrapper */}
                 <div
-                  className={`mr-4 flex h-8 w-10 items-center justify-center border-r pr-4 transition-colors ${
+                  className={`mr-3 sm:mr-4 flex h-6 w-8 sm:h-8 sm:w-10 items-center justify-center border-r pr-3 sm:pr-4 transition-colors ${
                     openIndex === index ? "border-white/30" : "border-gray-300"
                   }`}
                 >
                   <ChevronRight
-                    className={`h-6 w-6 transition-transform duration-300 ${
+                    className={`h-5 w-5 sm:h-6 sm:w-6 transition-transform duration-300 ${
                       openIndex === index
                         ? "rotate-90 text-white"
                         : "text-gray-400"
@@ -136,7 +136,7 @@ const StudentClubsAccordion = () => {
                   />
                 </div>
 
-                <span className="text-sm md:text-lg font-medium text-left">
+                <span className="text-xs sm:text-sm md:text-base lg:text-lg font-medium text-left">
                   {item.category}
                 </span>
               </button>
@@ -144,18 +144,23 @@ const StudentClubsAccordion = () => {
               {/* Accordion Content */}
               <div
                 className={`overflow-hidden transition-all duration-500 ease-in-out ${
-                  openIndex === index ? " opacity-100" : "max-h-0 opacity-0"
+                  openIndex === index
+                    ? "max-h-screen opacity-100"
+                    : "max-h-0 opacity-0"
                 }`}
               >
-                <div className="p-8 md:p-12 bg-white">
+                <div className="p-4 sm:p-6 md:p-8 lg:p-12 bg-white">
                   {/* Two-column grid for clubs */}
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-10">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 sm:gap-x-10 md:gap-x-12 lg:gap-x-16 gap-y-6 sm:gap-y-8 md:gap-y-10">
                     {item.clubs.map((club, i) => (
-                      <div key={i} className="flex flex-col space-y-2">
-                        <h4 className="font-bold text-gray-900 text-base md:text-lg">
+                      <div
+                        key={i}
+                        className="flex flex-col space-y-1 sm:space-y-2"
+                      >
+                        <h4 className="font-bold text-gray-900 text-sm sm:text-base md:text-lg">
                           {club.name}
                         </h4>
-                        <p className="text-gray-600 text-sm leading-relaxed font-light">
+                        <p className="text-gray-600 text-xs sm:text-sm leading-relaxed font-light">
                           {club.desc}
                         </p>
                       </div>

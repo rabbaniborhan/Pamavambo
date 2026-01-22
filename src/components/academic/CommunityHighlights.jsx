@@ -20,22 +20,23 @@ const highlights = [
 
 export function CommunityHighlights() {
   return (
-    <section className="bg-[#23242a] text-white py-20 px-6">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
+    <section className="bg-[#23242a] text-white py-12 sm:py-16 md:py-20 px-4 sm:px-5 md:px-6">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-8 sm:gap-10 md:gap-12">
         {highlights.map((item, i) => (
-          <div key={i} className="space-y-6">
-            <div className="relative w-24 h-24">
+          <div key={i} className="space-y-4 sm:space-y-5 md:space-y-6">
+            <div className="relative w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24">
               <Image
                 src={item.icon}
                 alt={item.title}
                 fill
-                className="object-contain  sepia saturate-[2] hue-rotate-15 "
+                className="object-contain sepia saturate-[2] hue-rotate-15"
+                sizes="(max-width: 640px) 64px, (max-width: 768px) 80px, 96px"
               />
             </div>
-            <h3 className="text-2xl font-semibold tracking-tight">
+            <h3 className="text-lg sm:text-xl md:text-2xl font-semibold tracking-tight">
               {item.title}
             </h3>
-            <p className="text-sm leading-relaxed text-white font-light">
+            <p className="text-xs sm:text-sm md:text-sm leading-relaxed sm:leading-relaxed text-white font-light">
               {item.desc}
             </p>
           </div>
