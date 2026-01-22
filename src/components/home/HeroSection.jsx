@@ -55,7 +55,7 @@ export default function HeroSection() {
   const currentSlide = hoverText !== null ? hoverText + 1 : activeSlide;
 
   return (
-    <section className="relative w-full h-screen overflow-hidden">
+    <section className="relative bg-black w-full h-screen overflow-hidden">
       {/* Slides */}
       {slides.map((slide, index) => (
         <div
