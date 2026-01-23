@@ -1,12 +1,6 @@
 "use client";
 
-import {
-  ArrowRight,
-  Facebook,
-  Instagram,
-  Linkedin,
-  Youtube,
-} from "lucide-react";
+import { ArrowRight, Facebook } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -14,13 +8,11 @@ const mainNavLinks = [
   { name: "SCHOOL NEWS", href: "/news" },
   { name: "DIRECTORY", href: "/directory" },
   { name: "CAREERS", href: "/careers" },
-  { name: "BIG RED ONLINE STORE", href: "/store" },
 ];
 
 const secondaryLinks = [
   { name: "PRIVACY POLICY", href: "/privacy" },
   { name: "SITE MAP", href: "/sitemap" },
-  { name: "EMPLOYEE SELF-SERVICE PORTAL", href: "/portal" },
 ];
 
 export default function Footer() {
@@ -86,24 +78,12 @@ export default function Footer() {
                 size={18}
                 className="cursor-pointer opacity-70 hover:opacity-100 transition-opacity"
               />
-              <Linkedin
-                size={18}
-                className="cursor-pointer opacity-70 hover:opacity-100 transition-opacity"
-              />
-              <Instagram
-                size={18}
-                className="cursor-pointer opacity-70 hover:opacity-100 transition-opacity"
-              />
-              <Youtube
-                size={18}
-                className="cursor-pointer opacity-70 hover:opacity-100 transition-opacity"
-              />
             </div>
           </div>
         </div>
 
         {/* Middle Section: Main Site Navigation Links */}
-        <div className="border-t border-white/10 pt-8 pb-4">
+        <div className="pt-8 pb-4">
           <nav className="flex flex-wrap justify-center md:justify-start gap-x-8 gap-y-4">
             {mainNavLinks.map((link) => (
               <Link

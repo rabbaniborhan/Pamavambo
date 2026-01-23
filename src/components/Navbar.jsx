@@ -33,7 +33,7 @@ const mainNavConfig = [
     links: [
       { label: "Inquire", href: "/admission/inquire" },
       { label: "Application Process", href: "/admission/application" },
-      { label: "Campus Visit", href: "/admission/visit" },
+      { label: "Campus Visits", href: "/admission/visit" },
     ],
   },
   {
