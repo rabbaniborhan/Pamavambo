@@ -11,7 +11,7 @@ const BeyondHero = () => {
       />
 
       {/* Red Tint Overlay - mix-blend-multiply creates that deep red effect */}
-      <div className="absolute inset-0 z-10 bg-red-900/90 mix-blend-multiply" />
+      <div className="absolute inset-0 z-10 bg-[#7e0b1a]  opacity-90" />
 
       {/* Content Container */}
       <div className="relative z-20 flex h-full flex-col justify-center px-4 sm:px-5 md:px-8 lg:px-20 xl:px-32">
