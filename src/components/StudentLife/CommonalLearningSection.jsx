@@ -1,20 +1,10 @@
 import Image from "next/image";
 
-import SubNav from "../common/SubNav";
-
-const subNavItems = [
-  { label: "CAMPUS", href: "/campus" },
-  { label: "DINING", href: "/dining" },
-  { label: "HEALTH AND WELLNESS", href: "/health" },
-  { label: "PUBLIC SAFETY", href: "/safety" },
-  { label: "DIVERSITY AND BELONGING", href: "/diversity" },
-  { label: "NEWS AND MEDIA", href: "/news" },
-];
 
 export default function CommunalLearningSection() {
   return (
     <div className="w-full bg-white pb-16 sm:pb-20 md:pb-24 lg:pb-28">
-      <SubNav subNavItems={subNavItems} />
+     
 
       {/* 2. Main Content Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-6 py-10 sm:py-12 md:py-14 lg:py-16 grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 lg:gap-16 items-center">

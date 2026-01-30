@@ -1,10 +1,11 @@
+import DualActionCards from "@/components/common/DualActionCards";
 import SecondHero from "@/components/common/SecondHero";
 import ActivitySection from "@/components/StudentLife/ActivitySection";
 import CampusSection from "@/components/StudentLife/CampusSection";
 import CommunalLearningSection from "@/components/StudentLife/CommonalLearningSection";
 import CommunitySection from "@/components/StudentLife/CommunitySection";
 import CulturalSection from "@/components/StudentLife/CulturalSection";
-import DualActionCards from "@/components/StudentLife/DualActionCards";
+
 import SpecialitySection from "@/components/StudentLife/SpecialitySection";
 import WelcomeSection from "@/components/StudentLife/WelcomeSection";
 

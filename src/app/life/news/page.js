@@ -1,3 +1,4 @@
+import DualActionCards from "@/components/common/DualActionCards";
 import SchoolNewsCarousel from "@/components/common/SchoolNewsCarousel";
 import ThirdHero from "@/components/common/ThirdHero";
 import SocialFeed from "@/components/news/SocialFeed";
@@ -125,6 +126,26 @@ const blogsData = {
   ],
 };
 
+  const cardsData = [
+    {
+      title: "18:10 Podcast",
+      description:
+        "A Lawrenceville graduate is ready. Ready to embrace higher education and engage in the professional world; to create cultures of belonging; to enter any conversation with confidence and an open mind.In 18 minutes and 10 seconds, we explore the future of education with insights from bright-minded individuals, inspiring new ways of thinking. Stay tuned for future episodes and email us at communication@lawrenceville.org to get in touch.",
+      buttonText: "Listen Now",
+      href: "/academics",
+      backgroundImage: "/student_life/cards1.jpg",
+    },
+    {
+      title: "Photo Albums",
+      description:
+        "When participating in co-curriculars, students learn through shared experience, varying perspectives, and a mutual accountability that encourages tenacity, resilience, empathy, and compassionate objectivity.The vibrant community at the Lawrenceville School is documented in the albums on our Flickr account.Updated throughout the year, our photo albums are full of beautiful, high-resolution, professional photographs that are available for download.",
+      buttonText: "Take a Look",
+      href: "/co-curriculars",
+      backgroundImage: "/student_life/cards2.jpg",
+    },
+  ];
+
+
 export default function News() {
   return (
     <>
@@ -133,6 +154,7 @@ export default function News() {
 
       <SchoolNewsCarousel {...blogsData} />
       <SocialFeed />
+      <DualActionCards cardData={cardsData} />
     </>
   );
 }
