@@ -9,8 +9,8 @@ import { useState } from "react";
 const dropdownData = {
   title: "INFORMATION FOR",
   items: [
-    { label: "Students", href: "/info/students" },
-    { label: "Parents", href: "/info/parents" },
+    { label: "Students", href: "/students" },
+    { label: "Parents", href: "/parents" },
   ],
 };
 
@@ -24,7 +24,6 @@ const mainNavConfig = [
       { label: "News and Events", href: "/life/news" },
       { label: "Campus", href: "/life/campus" },
       { label: "Leadership", href: "/life/leadership" },
-      { label: "Careers", href: "/life/careers" },
     ],
   },
   {
@@ -40,7 +39,7 @@ const mainNavConfig = [
     title: "ACADEMICS",
     href: "/academics",
     links: [
-      { label: "Departments", href: "/academics/departments" },
+      { label: "Departments", href: "/academics#departments" },
       { label: "Academic Community", href: "/academics/community" },
       { label: "Career", href: "/academics/career" },
     ],
