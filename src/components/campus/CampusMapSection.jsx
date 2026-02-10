@@ -42,7 +42,7 @@ const CampusMapSection = () => {
               {/* Google Maps Embed */}
               <div className="relative aspect-3/4 w-full border border-gray-200">
                 <iframe
-                  src="https://www.google.com/maps?q=Lawrenceville%20School%20New%20Jersey&output=embed"
+                  src="https://www.google.com/maps?q=Pamavambo%20School%20New%20Jersey&output=embed"
                   className="absolute inset-0 w-full h-full grayscale-[0.5]"
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
@@ -74,7 +74,7 @@ const CampusMapSection = () => {
                     {item}
                   </AccordionTrigger>
                   <AccordionContent className="text-gray-600 leading-relaxed pb-6">
-                    Lawrenceville provides special rates for campus visitors at
+                    Pamavambo provides special rates for campus visitors at
                     partner hotels. Please contact our Admissions office for
                     more details.
                   </AccordionContent>

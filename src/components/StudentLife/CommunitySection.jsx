@@ -65,10 +65,10 @@ export default function CommunitySection() {
             </h3>
             <p className="text-xs sm:text-xs md:text-sm text-gray-600 leading-relaxed sm:leading-relaxed font-light mb-6 sm:mb-7 md:mb-8 max-w-xl">
               While Houses are a student's home base, they are far from the only
-              place that feels like home at Lawrenceville. Our campus is
-              designed to facilitate socialization, wellness activities, and
-              memorable gatherings. From large, outdoor areas to cozy study
-              rooms, students always have spaces that support their needs.
+              place that feels like home at Pamavambo. Our campus is designed to
+              facilitate socialization, wellness activities, and memorable
+              gatherings. From large, outdoor areas to cozy study rooms,
+              students always have spaces that support their needs.
             </p>
           </div>
 

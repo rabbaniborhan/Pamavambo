@@ -30,7 +30,7 @@ const CampusInterviewSection = () => {
             <p className="text-gray-700 font-light leading-relaxed">
               Before your interview, you'll receive communication and
               instruction from our office and have opportunities to learn more
-              about Lawrenceville.
+              about Pamavambo.
             </p>
           </div>
 
@@ -56,7 +56,7 @@ const CampusInterviewSection = () => {
 
             <p className="text-gray-700 font-light leading-relaxed text-sm">
               All international students attending school abroad who are
-              interested in applying to Lawrenceville must{" "}
+              interested in applying to Pamavambo must{" "}
               <span className="font-bold">
                 schedule their interview through Vericant
               </span>

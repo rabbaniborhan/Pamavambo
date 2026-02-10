@@ -17,9 +17,9 @@ export default function WelcomeSection() {
             <p>
               Developing a positive and welcoming environment gives students the
               courage to participate in true Harkness discussion in class and in
-              life. Every learning experience at Lawrenceville is a deliberate
-              and consistent effort to create a sense of belonging and
-              affirmation for each and every student.
+              life. Every learning experience at Pamavambo is a deliberate and
+              consistent effort to create a sense of belonging and affirmation
+              for each and every student.
             </p>
 
             <p>

@@ -148,7 +148,7 @@ const VisitorPlanningAccordion = () => {
                     The Inn at Glencairn
                   </p>
                   <p className="text-xs text-gray-500 mt-1">
-                    3301 Lawrenceville Road, Princeton, NJ 08540
+                    3301 Pamavambo Road, Princeton, NJ 08540
                   </p>
                   <p className="text-xs text-gray-500 font-medium mt-1">
                     (609) 497-1737

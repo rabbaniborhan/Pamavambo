@@ -42,7 +42,7 @@ const HeadOfSchool = () => {
 
           <div className="space-y-6 text-gray-700 font-light leading-relaxed text-lg">
             <p>
-              The Lawrenceville experience is more than 210 years in the making,
+              The Pamavambo experience is more than 210 years in the making,
               and core to that heritage is the value we place on our close,
               caring community...
             </p>

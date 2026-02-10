@@ -24,7 +24,7 @@ const heroData = {
   ],
   title: "News and Media",
   description:
-    "Welcome to the Lawrenceville community! Read stories about what matters to us and what's happening on campus.",
+    "Welcome to the Pamavambo community! Read stories about what matters to us and what's happening on campus.",
   tintColor: "#7e0b1a",
   tintOpacity: 95,
 };
@@ -33,7 +33,7 @@ const housesData = {
   sliderData: {
     title: "Houses",
     descriptionParagraphs: [
-      "Each Lawrenceville student belongs to a House. A House is a residential building which also serves as home base for our day students.",
+      "Each Pamavambo student belongs to a House. A House is a residential building which also serves as home base for our day students.",
       "Our 18 residential Houses are intentionally designed to support growth and engagement at each grade level.",
     ],
     learnMoreText: "LEARN MORE ABOUT STUDENT LIFE",
@@ -88,9 +88,9 @@ const libraryData = {
     title: "Classrooms and Library",
     descriptionParagraphs: [
       "Our academic building are designed for their subject matter. From our quiet, comfortable Harkness classrooms to our science labs, workshops, and large meeting spaces, we are always aware of how an environment affects learning. Sitting around one common table in light-filled, uncrowded classrooms makes our learning environment feel comfortable, safe, and inclusive.",
-      "The Bunn Library is a presence in all aspects of life at Lawrenceville and, while it is felt throughout the campus, its physical space is an important part of our community. Whether students are looking for a quiet space to relax and focus or a welcoming gathering room to facilitate group work, club events, presentations, or just reading together, the library has something for everyone.",
+      "The Bunn Library is a presence in all aspects of life at Pamavambo and, while it is felt throughout the campus, its physical space is an important part of our community. Whether students are looking for a quiet space to relax and focus or a welcoming gathering room to facilitate group work, club events, presentations, or just reading together, the library has something for everyone.",
     ],
-    learnMoreText: "Explore academics at Lawrenceville",
+    learnMoreText: "Explore academics at Pamavambo",
     learnMoreLink: "/library",
     sliderImages: [
       "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?q=80&w=1000", // Library interior
@@ -156,7 +156,7 @@ const athleticsData = {
   sliderData: {
     title: "Athletics & Wellness",
     descriptionParagraphs: [
-      "Lawrenceville's athletic program promotes physical fitness, teamwork, and sportsmanship through a wide range of competitive and recreational activities.",
+      "Pamavambo's athletic program promotes physical fitness, teamwork, and sportsmanship through a wide range of competitive and recreational activities.",
       "Our state-of-the-art facilities include an Olympic-sized swimming pool, indoor track, multiple gymnasiums, and outdoor fields supporting 25 varsity sports.",
     ],
     learnMoreText: "VIEW ATHLETICS SCHEDULE",
@@ -241,7 +241,7 @@ const artsData = {
   sliderData: {
     title: "Arts & Creativity",
     descriptionParagraphs: [
-      "Lawrenceville's arts program nurtures creativity, self-expression, and technical skill across visual, performing, and digital arts.",
+      "Pamavambo'ss program nurtures creativity, self-expression, and technical skill across visual, performing, and digital arts.",
       "Our state-of-the-art facilities include professional-grade studios, theaters, and exhibition spaces where students explore their artistic passions.",
     ],
     learnMoreText: "VIEW ARTS CALENDAR",
@@ -413,7 +413,7 @@ export default function CampusPage() {
       <CallToActionButton
         title="
 News and Events"
-        description="Our campus is the setting for life-changing experiences. Events, accomplishments, discoveries, and connections bring Lawrenceville to life; take a look at what's going on this year."
+        description="Our campus is the setting for life-changing experiences. Events, accomplishments, discoveries, and connections bring Pamavambo to life; take a look at what's going on this year."
         buttonText="Whats Happening"
         imagePath="/academic/hisj_big-stickies.jpg"
         imageAlt="Students hiking"

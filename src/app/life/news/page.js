@@ -11,21 +11,21 @@ const heroData = {
   ],
   title: "News and Media",
   description:
-    "Welcome to the Lawrenceville community! Read stories about what matters to us and what's happening on campus.",
+    "Welcome to the Pamavambo community! Read stories about what matters to us and what's happening on campus.",
   tintColor: "#7e0b1a",
   tintOpacity: 95,
 };
 const newsData = {
   title: "School News",
   description:
-    "Stories of the community members, programs, and happenings that shape life at Lawrenceville.",
+    "Stories of the community members, programs, and happenings that shape life at Pamavambo.",
   buttonText: "Read All News Stories",
   buttonLink: "/news",
   newsPosts: [
     {
       id: 1,
       title:
-        "Beyond the Boards: Lawrenceville Coaches Build Confidence One Shift at a Time",
+        "Beyond the Boards: Pamavambo Coaches Build Confidence One Shift at a Time",
       date: "JANUARY 26, 2026",
       image:
         "https://images.unsplash.com/photo-1546519638-68e109498ffc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
@@ -52,7 +52,7 @@ const newsData = {
     },
     {
       id: 4,
-      title: "The Future of Digital Arts at Lawrenceville",
+      title: "The Future of Digital Arts at Pamavambo",
       date: "JANUARY 18, 2026",
       image:
         "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
@@ -73,14 +73,14 @@ const newsData = {
 const blogsData = {
   title: "School Blogs",
   description:
-    "Insights, reflections, and perspectives from across the Lawrenceville School communit.",
+    "Insights, reflections, and perspectives from across the Pamavambo School communit.",
   buttonText: "Read All Blogs Stories",
   buttonLink: "/news",
   newsPosts: [
     {
       id: 1,
       title:
-        "Beyond the Boards: Lawrenceville Coaches Build Confidence One Shift at a Time",
+        "Beyond the Boards: Pamavambo Coaches Build Confidence One Shift at a Time",
       date: "JANUARY 26, 2026",
       image:
         "https://images.unsplash.com/photo-1546519638-68e109498ffc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
@@ -107,7 +107,7 @@ const blogsData = {
     },
     {
       id: 4,
-      title: "The Future of Digital Arts at Lawrenceville",
+      title: "The Future of Digital Arts at Pamavambo",
       date: "JANUARY 18, 2026",
       image:
         "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
@@ -126,25 +126,24 @@ const blogsData = {
   ],
 };
 
-  const cardsData = [
-    {
-      title: "18:10 Podcast",
-      description:
-        "A Lawrenceville graduate is ready. Ready to embrace higher education and engage in the professional world; to create cultures of belonging; to enter any conversation with confidence and an open mind.In 18 minutes and 10 seconds, we explore the future of education with insights from bright-minded individuals, inspiring new ways of thinking. Stay tuned for future episodes and email us at communication@lawrenceville.org to get in touch.",
-      buttonText: "Listen Now",
-      href: "/academics",
-      backgroundImage: "/student_life/cards1.jpg",
-    },
-    {
-      title: "Photo Albums",
-      description:
-        "When participating in co-curriculars, students learn through shared experience, varying perspectives, and a mutual accountability that encourages tenacity, resilience, empathy, and compassionate objectivity.The vibrant community at the Lawrenceville School is documented in the albums on our Flickr account.Updated throughout the year, our photo albums are full of beautiful, high-resolution, professional photographs that are available for download.",
-      buttonText: "Take a Look",
-      href: "/co-curriculars",
-      backgroundImage: "/student_life/cards2.jpg",
-    },
-  ];
-
+const cardsData = [
+  {
+    title: "18:10 Podcast",
+    description:
+      "A Pamavambo graduate is ready. Ready to embrace higher education and engage in the professional world; to create cultures of belonging; to enter any conversation with confidence and an open mind.In 18 minutes and 10 seconds, we explore the future of education with insights from bright-minded individuals, inspiring new ways of thinking. Stay tuned for future episodes and email us at communication@Pamavambo.org to get in touch.",
+    buttonText: "Listen Now",
+    href: "/academics",
+    backgroundImage: "/student_life/cards1.jpg",
+  },
+  {
+    title: "Photo Albums",
+    description:
+      "When participating in co-curriculars, students learn through shared experience, varying perspectives, and a mutual accountability that encourages tenacity, resilience, empathy, and compassionate objectivity.The vibrant community at the Pamavambo School is documented in the albums on our Flickr account.Updated throughout the year, our photo albums are full of beautiful, high-resolution, professional photographs that are available for download.",
+    buttonText: "Take a Look",
+    href: "/co-curriculars",
+    backgroundImage: "/student_life/cards2.jpg",
+  },
+];
 
 export default function News() {
   return (

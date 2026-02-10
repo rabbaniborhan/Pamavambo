@@ -5,7 +5,7 @@ const leaders = [
     name: "Zaheer Ali",
     title:
       "Executive Director, Hutchins Center for Civic Tracker, History Department",
-    email: "zali@lawrenceville.org",
+    email: "zali@Pamavambo.org",
     image:
       "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1000",
   },
@@ -13,14 +13,14 @@ const leaders = [
     name: "Miguel Bayona P'12 '18",
     title:
       "Department Chair, Mathematics Department, The John C. Wellemeyer '55 P'18 Teaching Chair for Math and Science",
-    email: "mbayona@lawrenceville.org",
+    email: "mbayona@Pamavambo.org",
     image:
       "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=1000",
   },
   {
     name: "Etienne Bilodeau",
     title: "Acting Dean of Academics, Teacher, Mathematics Department",
-    email: "ebilodeau@lawrenceville.org",
+    email: "ebilodeau@Pamavambo.org",
     image:
       "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1000",
   },
@@ -28,7 +28,7 @@ const leaders = [
     name: "Matthew Campbell",
     title:
       "Department Chair and Director of Theatre, Performing Arts Department, Allan P. Kirby Chair for Performing Arts",
-    email: "mcampbell@lawrenceville.org",
+    email: "mcampbell@Pamavambo.org",
     image:
       "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=1000",
   },
@@ -36,7 +36,7 @@ const leaders = [
     name: "Craig Cetulo",
     title:
       "Director of Teaching and Learning, Office of the Dean of Academics; Teacher, English Department",
-    email: "ccetulo@lawrenceville.org",
+    email: "ccetulo@Pamavambo.org",
     image:
       "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1000",
   },
@@ -44,7 +44,7 @@ const leaders = [
     name: "Brian Jacobs H'22 P'29",
     title:
       "Department Chair and French Teacher, Language Department; Faculty Interviewer, Office of Admission, Independence Foundation Chair of 1960",
-    email: "bjacobs@lawrenceville.org",
+    email: "bjacobs@Pamavambo.org",
     image:
       "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=1000",
   },
@@ -52,7 +52,7 @@ const leaders = [
     name: "Phil Jordan",
     title:
       "Chair, Religion and Philosophy Department; Leader for Buddhism, Religious Life, The Dana C. Rumpf and Josiah Bunting III Distinguished Teaching Chair",
-    email: "pjordan@lawrenceville.org",
+    email: "pjordan@Pamavambo.org",
     image:
       "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=1000",
   },
@@ -60,14 +60,14 @@ const leaders = [
     name: "Chloe Kalna",
     title:
       "Department Chair, Visual Arts Department; Modern Dance Instructor, Performing Arts Department",
-    email: "ckalna@lawrenceville.org",
+    email: "ckalna@Pamavambo.org",
     image:
       "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1000",
   },
   {
     name: "Jessica Magnuson",
     title: "Director of Academic Support, Office of the Dean of Academics",
-    email: "jmagnuson@lawrenceville.org",
+    email: "jmagnuson@Pamavambo.org",
     image:
       "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1000",
   },
@@ -75,7 +75,7 @@ const leaders = [
     name: "Julie Mellor",
     title:
       "Director of the Experiential Education, Office of the Dean of Academics; Teacher, History Department",
-    email: "jmellor@lawrenceville.org",
+    email: "jmellor@Pamavambo.org",
     image:
       "https://images.unsplash.com/photo-1534751516642-a1af1ef26a56?q=80&w=1000",
   },

@@ -3,17 +3,17 @@ const AdmissionDecisions = () => {
     {
       title: "Admission Decision",
       content:
-        "Admission decisions will be released on March 10. Applicants will be able to view their decision on their Admission Portal. For admitted students, there will be several opportunities to get to know Lawrenceville even better in March and April.",
+        "Admission decisions will be released on March 10. Applicants will be able to view their decision on their Admission Portal. For admitted students, there will be several opportunities to get to know Pamavambo even better in March and April.",
     },
     {
       title: "Discovery Days",
       content:
-        "For admitted students, there will be several opportunities to get to know Lawrenceville even better in March and April. The main event is a visit to campus with the chance to attend class, meet future classmates, teachers, and coaches, and learn about what life is like as a Laurentian.",
+        "For admitted students, there will be several opportunities to get to know Pamavambo even better in March and April. The main event is a visit to campus with the chance to attend class, meet future classmates, teachers, and coaches, and learn about what life is like as a Laurentian.",
     },
     {
       title: "Enrollment Notification",
       content:
-        "We ask families to confirm their enrollment at Lawrenceville by April 10, as we welcome another incoming class of Laurentians!",
+        "We ask families to confirm their enrollment at Pamavambo by April 10, as we welcome another incoming class of Laurentians!",
     },
   ];
 

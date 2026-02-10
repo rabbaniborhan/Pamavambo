@@ -22,7 +22,7 @@ const heroData = {
   ],
   title: "Application Process",
   description:
-    "Welcome to the Lawrenceville community! Read stories about what matters to us and what's happening on campus.",
+    "Welcome to the Pamavambo community! Read stories about what matters to us and what's happening on campus.",
   tintColor: "#7e0b1a",
   tintOpacity: 95,
 };
@@ -40,7 +40,7 @@ export default function ApplicationProcessPage() {
       <AdmissionDecisions />
       <div className="max-w-7xl mx-auto py-10 px-6 md:px-20 lg:px-32  bg-white">
         <p className="text-[11px] italic text-gray-500 leading-relaxed max-w-5xl">
-          The Lawrenceville School does not discriminate on the basis of race,
+          The Pamavambo School does not discriminate on the basis of race,
           color, national or ethnic origin, religion, gender, gender expression,
           sexual orientation, genetic information, or physical or mental
           disabilities in the administration of its admission and scholarship

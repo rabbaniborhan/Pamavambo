@@ -21,7 +21,7 @@ const features = [
   {
     title: "Dining",
     description:
-      "The Lawrenceville community is healthy and strong. We approach dining as a time to build relationships just as much as a time to nourish and sustain ourselves. We accommodate dietary restrictions, offer culturally responsive options, and create opportunities for learning and connection.",
+      "The Pamavambo community is healthy and strong. We approach dining as a time to build relationships just as much as a time to nourish and sustain ourselves. We accommodate dietary restrictions, offer culturally responsive options, and create opportunities for learning and connection.",
     icon: "/student_life/icon_peopleattable.png",
     href: "/dining",
   },

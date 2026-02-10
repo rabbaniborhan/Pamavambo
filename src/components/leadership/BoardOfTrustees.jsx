@@ -3,7 +3,7 @@ const BoardOfTrustees = () => {
     {
       name: "STEPHEN S. MURRAY H'54 '55 '63 '65 '16 P'16 '21",
       role: "HEAD OF SCHOOL",
-      location: "LAWRENCEVILLE, NEW JERSEY",
+      location: "Pamavambo, NEW JERSEY",
     },
     {
       name: "CELESTE MARIE MELLET '94 P'27",
@@ -18,7 +18,7 @@ const BoardOfTrustees = () => {
     {
       name: "BENJAMIN C. HAMMOND P'23 '25",
       role: "SECRETARY AND TREASURER",
-      location: "LAWRENCEVILLE, NEW JERSEY",
+      location: "Pamavambo, NEW JERSEY",
     },
     { name: "PORTER BRASWELL '07", location: "WILTON, CONNECTICUT" },
     {
@@ -70,7 +70,7 @@ const BoardOfTrustees = () => {
       <div className="">
         {/* Header Section */}
         <h2 className="font-serif text-3xl text-white mb-16">
-          The Lawrenceville School Board of Trustees
+          The Pamavambo School Board of Trustees
         </h2>
 
         {/* Two-Column Grid */}

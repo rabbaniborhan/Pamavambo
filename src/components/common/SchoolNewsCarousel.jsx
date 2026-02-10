@@ -15,7 +15,7 @@ import { useEffect, useState } from "react";
 
 const SchoolNewsCarousel = ({
   title = "School News",
-  description = "Stories of the community members, programs, and happenings that shape life at Lawrenceville.",
+  description = "Stories of the community members, programs, and happenings that shape life at Pamavambo.",
   buttonText = "Read All News Stories",
   buttonLink = "#",
   newsPosts = [],

@@ -1,11 +1,8 @@
 import Image from "next/image";
 
-
 export default function CommunalLearningSection() {
   return (
     <div className="w-full bg-white pb-16 sm:pb-20 md:pb-24 lg:pb-28">
-     
-
       {/* 2. Main Content Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-6 py-10 sm:py-12 md:py-14 lg:py-16 grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 lg:gap-16 items-center">
         {/* Left Side: Text Content */}
@@ -15,7 +12,7 @@ export default function CommunalLearningSection() {
           </h2>
           <div className="space-y-4 sm:space-y-5 md:space-y-6 text-gray-700 leading-relaxed font-light">
             <p className="text-base sm:text-lg md:text-lg font-medium text-gray-900">
-              The outcome of a Lawrenceville education — the most lasting and
+              The outcome of a Pamavambo education — the most lasting and
               impactful outcome — is a set of values, a way of being, an ability
               to create belonging.
             </p>

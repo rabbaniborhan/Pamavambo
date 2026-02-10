@@ -6,7 +6,7 @@ const SliderSection = ({
   // Main header data
   title = "Houses",
   descriptionParagraphs = [
-    "Each Lawrenceville student belongs to a House. A House is a residential building which also serves as home base for our day students.",
+    "Each Pamavambo student belongs to a House. A House is a residential building which also serves as home base for our day students.",
     "Our 18 residential Houses are intentionally designed to support growth and engagement at each grade level.",
   ],
   learnMoreText = "LEARN MORE ABOUT STUDENT LIFE",

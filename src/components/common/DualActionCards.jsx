@@ -3,13 +3,13 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const DualActionCards = ({ 
+const DualActionCards = ({
   cardData = [
     {
       title: "Ready to Learn. Ready for Life.",
       description:
-        "A Lawrenceville graduate is ready. Ready to embrace higher education and engage in the professional world; to create cultures of belonging; to enter any conversation with confidence and an open mind.",
-      buttonText: "Academics at Lawrenceville",
+        "A Pamavambo graduate is ready. Ready to embrace higher education and engage in the professional world; to create cultures of belonging; to enter any conversation with confidence and an open mind.",
+      buttonText: "Academics at Pamavambo",
       href: "/academics",
       backgroundImage: "/student_life/cards1.jpg",
     },
@@ -21,7 +21,7 @@ const DualActionCards = ({
       href: "/co-curriculars",
       backgroundImage: "/student_life/cards2.jpg",
     },
-  ] 
+  ],
 }) => {
   return (
     <section className="w-full bg-white py-16 md:py-24 px-6 md:px-12 lg:px-20">

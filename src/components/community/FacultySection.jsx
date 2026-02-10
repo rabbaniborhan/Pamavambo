@@ -15,7 +15,7 @@ const facultyFeatures = [
     reverse: true,
   },
   {
-    text: "We're always looking for the best young teachers and the mid- and late-career experts who can bring a diverse and ever-evolving perspective to the community. Each year, the School engages Teaching Fellows enrolled in the University of Pennsylvania's Boarding School Teacher Residency program, in which they work toward a master's degree in education. Teaching Fellows teach in an academic department, live on campus, and fully participate in the residential and co-curricular life of the School. By doing so, they not only bring their fresh perspective to the Lawrenceville experience, they also learn from our experienced teaching and subject-matter experts.",
+    text: "We're always looking for the best young teachers and the mid- and late-career experts who can bring a diverse and ever-evolving perspective to the community. Each year, the School engages Teaching Fellows enrolled in the University of Pennsylvania's Boarding School Teacher Residency program, in which they work toward a master's degree in education. Teaching Fellows teach in an academic department, live on campus, and fully participate in the residential and co-curricular life of the School. By doing so, they not only bring their fresh perspective to the Pamavambo experience, they also learn from our experienced teaching and subject-matter experts.",
     image:
       "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=2070&auto=format&fit=crop",
     alt: "Graduation or formal event",

@@ -18,12 +18,12 @@ const ApplicationMaterials = () => {
 
             <div className="space-y-6 text-gray-300 font-light leading-relaxed">
               <p>
-                The Lawrenceville application deadline is{" "}
+                The Pamavambo application deadline is{" "}
                 <span className="font-bold text-white">January 15.</span>
               </p>
 
               <p>
-                To apply to Lawrenceville please use the{" "}
+                To apply to Pamavambo please use the{" "}
                 <a
                   href="#"
                   className="font-bold text-white italic border-b border-white/30 hover:border-white transition-all"
@@ -35,7 +35,7 @@ const ApplicationMaterials = () => {
               <p className="text-sm">
                 You can see the steps to completing a Gateway application in
                 this video. Please refer to the Gateway checklist to make sure
-                you've submitted all required documents for the Lawrenceville
+                you've submitted all required documents for the Pamavambo
                 application process.
               </p>
             </div>
@@ -80,7 +80,7 @@ const ApplicationMaterials = () => {
                     </ul>
                     <p className="mt-8 text-xs italic text-gray-400">
                       All recommendations are to be submitted by the current
-                      teachers during the time of applying to Lawrenceville.
+                      teachers during the time of applying to Pamavambo.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -122,10 +122,10 @@ const ApplicationMaterials = () => {
               <p className="text-[11px] text-gray-400 leading-relaxed pt-4">
                 Domestic candidates, please email our office at{" "}
                 <a
-                  href="mailto:admission@lawrenceville.org"
+                  href="mailto:admission@Pamavambo.org"
                   className="text-white border-b border-white/20"
                 >
-                  admission@lawrenceville.org
+                  admission@Pamavambo.org
                 </a>{" "}
                 to request an application fee waiver if you are experiencing
                 financial hardship.

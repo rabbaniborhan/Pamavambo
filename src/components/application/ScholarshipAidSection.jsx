@@ -11,7 +11,7 @@ const ScholarshipAidSection = ({
   eligibilityText = "A family's eligibility for aid is determined through careful analysis of information provided on the scholarship aid application, Clarity, and through review of a family's current, complete, federal tax return. This analysis identifies the dollar amount of a family's discretionary income that is available for tuition and fees.",
   clarityText = "Clarity",
 
-  encouragementText = "We strongly encourage families to apply for aid during the application process if they believe that, at any time during their child's tenure at Lawrenceville, they will need scholarship aid. It is unlikely that a family's aid eligibility will change unless there is a significant change in their circumstances such as job loss, additional tuition expenses for other children, or the death of a parent. Families who come to Lawrenceville as full-pay, should expect to be full-pay throughout their time at the School barring any significant life event such as previously described.",
+  encouragementText = "We strongly encourage families to apply for aid during the application process if they believe that, at any time during their child's tenure at Pamavambo, they will need scholarship aid. It is unlikely that a family's aid eligibility will change unless there is a significant change in their circumstances such as job loss, additional tuition expenses for other children, or the death of a parent. Families who come to Pamavambo as full-pay, should expect to be full-pay throughout their time at the School barring any significant life event such as previously described.",
 
   deadline = "January 15",
 

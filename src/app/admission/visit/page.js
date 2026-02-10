@@ -20,7 +20,7 @@ const heroData = {
   ],
   title: "Campus Visits",
   description:
-    "Welcome to the Lawrenceville community! Read stories about what matters to us and what's happening on campus.",
+    "Welcome to the Pamavambo community! Read stories about what matters to us and what's happening on campus.",
   tintColor: "#7e0b1a",
   tintOpacity: 95,
 };

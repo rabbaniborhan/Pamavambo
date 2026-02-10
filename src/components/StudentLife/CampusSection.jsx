@@ -21,7 +21,7 @@ export default function CampusSection() {
         <div className="w-full lg:w-1/2 space-y-6 sm:space-y-8">
           <div className="space-y-4 sm:space-y-5 md:space-y-6 text-gray-700 leading-relaxed md:leading-relaxed font-light text-sm sm:text-base md:text-[15px] lg:text-base">
             <p>
-              Each Lawrenceville student belongs to a House. A House is a
+              Each Pamavambo student belongs to a House. A House is a
               residential building which also serves as home base for our day
               students. Our Houses are located in three areas of campus — one
               for second formers (ninth grade), one for Third and Fourth Formers

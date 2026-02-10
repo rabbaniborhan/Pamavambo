@@ -18,7 +18,7 @@ const heroData = {
   breadcrumbs: [],
   title: "Leadership",
   description:
-    "Lawrenceville challenges a diverse community of promising young people to lead lives of learning, integrity, and high purpose. Our mission is to inspire the best in each to seek the best for all.",
+    "Pamavambo challenges a diverse community of promising young people to lead lives of learning, integrity, and high purpose. Our mission is to inspire the best in each to seek the best for all.",
   tintColor: "#7e0b1a",
   tintOpacity: 95,
 };

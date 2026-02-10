@@ -91,7 +91,7 @@ const SocialFeed = () => {
         {/* Footer Links */}
         <div className="mt-12 flex flex-col items-end space-y-4">
           <p className="text-[#002d24] text-sm font-sans tracking-wide">
-            Stay Connected with the Lawrenceville Community
+            Stay Connected with the Pamavambo Community
           </p>
 
           <div className="flex space-x-6 text-[#b08d57]">

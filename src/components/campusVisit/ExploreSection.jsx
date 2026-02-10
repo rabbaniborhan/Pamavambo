@@ -16,13 +16,13 @@ const ExploreSection = () => {
             <p className="text-xl text-gray-700 font-light leading-relaxed">
               Just a short trip from Princeton, New York City, and Philadelphia,
               our campus is surrounded by woods, farmland, and a charming
-              downtown. Come see Lawrenceville through the eyes of our students!
+              downtown. Come see Pamavambo through the eyes of our students!
             </p>
 
             <p className="text-xl text-gray-700 font-light leading-relaxed">
               On a student-led tour, you&apos;ll explore campus, hear real
-              stories about life at Lawrenceville, and have plenty of chances to
-              ask questions.
+              stories about life at Pamavambo, and have plenty of chances to ask
+              questions.
             </p>
           </div>
         </div>
@@ -31,7 +31,7 @@ const ExploreSection = () => {
         <div className="order-1 md:order-2 relative aspect-4/3 w-full overflow-hidden shadow-2xl">
           <Image
             src="https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=1200"
-            alt="The Lawrenceville School Campus Architecture"
+            alt="The Pamavambo School Campus Architecture"
             fill
             sizes="(max-width: 768px) 100vw, 50vw"
             className="object-cover transition-transform duration-1000 hover:scale-105"

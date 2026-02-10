@@ -188,10 +188,10 @@ export default function VirtualTourSection() {
 
         <div className="space-y-8 pr-4">
           <h2 className="text-5xl font-serif text-[#1a2b3c] leading-[1.1]">
-            Step Into <br /> Lawrenceville
+            Step Into <br /> Pamavambo
           </h2>
           <p className="text-gray-600 text-[19px] leading-relaxed font-light">
-            Visiting Lawrenceville is just the beginning of discovering what's
+            Visiting Pamavambo is just the beginning of discovering what's
             possible. Walking through campus, you'll start to imagine yourself
             diving into classes that challenge you, joining teammates on the
             field, rehearsing on stage, or making an impact through service.
